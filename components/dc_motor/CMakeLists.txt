@@ -1,8 +1,7 @@
 idf_component_register(
-    SRCS "main.cpp"
+    SRCS "dc_motor.cpp"
     INCLUDE_DIRS "include"
-    REQUIRES esp-dsp driver units lqr dc_motor
+    REQUIRES driver
 )
 
-# Ensure this component uses C++20
 set_property(TARGET ${COMPONENT_LIB} PROPERTY CXX_STANDARD 20)
