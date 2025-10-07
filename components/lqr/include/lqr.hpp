@@ -1,7 +1,7 @@
 #ifndef LQR_H
 #define LQR_H
 
-#include <esp_dsp.h>
+#include "esp_dsp.h"
 
 /// computed K and F gains for an LQR controller
 class lqr {
