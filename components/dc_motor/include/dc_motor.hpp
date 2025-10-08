@@ -1,5 +1,5 @@
-#ifndef BLDC_MOTOR
-#define BLDC_MOTOR
+#ifndef DC_MOTOR
+#define DC_MOTOR
 
 #include "hal/ledc_types.h"
 #include "soc/gpio_num.h"
